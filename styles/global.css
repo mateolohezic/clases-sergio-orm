@@ -1,0 +1,30 @@
+:root{
+    --azul-oscuro: #201658;
+    --azul-claro: #1D24CA;
+    --celeste: #98ABEE;
+    --crema: #F9E8C9;
+    --fuente: "Montserrat", sans-serif;
+}
+
+*{
+    /*reset*/
+    font-family: var(--fuente);
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.barraNavegacion{
+    background-color: var(--azul-oscuro);
+}
+
+.btn-submit{
+    background-color: var(--azul-oscuro);
+    color: white;
+}
+
+.btn-submit:hover{
+    background-color: var(--azul-oscuro);
+    color: white;
+    opacity: 0.9;
+}

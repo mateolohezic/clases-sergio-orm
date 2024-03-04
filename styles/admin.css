@@ -1,0 +1,66 @@
+.cardsCochesCRUD{
+    width: 600px;
+    filter: drop-shadow(0px 10px 10px #00000020);
+    height: 600px;
+    background-color: var(--crema);
+    gap: 0.5rem;
+    overflow-y: auto;
+}
+
+.cardCRUD{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.cardCRUD div{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.cardCRUD div button{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+}
+
+.cardCRUD div button:first-child{
+    background-color: var(--celeste);
+}
+
+.cardCRUD div button:hover{
+    transform: scale(1.2);
+}
+
+.cardCRUD div button i{
+    position: relative;
+    top: 2px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contenedorNuevoCocheAdmin{
+    width: 600px;
+    text-align: end;
+    margin-bottom: 1rem;
+}
+
+.contenedorNuevoCocheAdmin button{
+    padding: 0.5rem 1rem;
+    background-color: var(--azul-oscuro);
+    color: white;
+    border-radius: 0.5rem;
+    transition: all .3s ease;
+}
+
+.contenedorNuevoCocheAdmin button:hover{
+    opacity: 0.8;
+}
