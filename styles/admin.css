@@ -16,10 +16,11 @@
     padding: 1rem 1rem;
     border-radius: 0.5rem;
 }
-
-.cardCRUD div{
-    display: flex;
-    gap: 0.5rem;
+.cardCRUD img{
+    height: 50px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 0.5rem;
 }
 
 .cardCRUD div button{
