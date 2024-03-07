@@ -34,7 +34,7 @@ async function onSubmit(event) {
         body: JSON.stringify({ email, password })
     }).then(response => {
         if (response.status === 200) {
-
+            localStorage.setItem('logueado', true)
             window.location.replace("/pages/admin.html")
         }
 
